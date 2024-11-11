@@ -7,7 +7,9 @@
     "sass": "^1.80.6"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-dev": "sass --watch --source-map scss/main.scss:css/compiled_style.css",
+    "sass": "sass-prod --no-source-map --style=compressed scss/main.scss:css/compiled_style.css"
   },
   "author": "",
   "license": "ISC",
