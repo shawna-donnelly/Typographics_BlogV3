@@ -1,0 +1,16 @@
+{
+  "dependencies": {},
+  "name": "typographics_blogv3",
+  "version": "1.0.0",
+  "main": "index.html",
+  "devDependencies": {
+    "sass": "^1.80.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "Typographix with SCSS",
+  "packageManager": "yarn@1.22.21+sha1.1959a18351b811cdeedbd484a8f86c3cc3bbaf72"
+}
